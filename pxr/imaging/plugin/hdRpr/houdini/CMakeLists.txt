@@ -1,4 +1,4 @@
-if(OpenVDB_FOUND)
+if(OPENVDB_FOUND)
     set(HOUDINI_OPENVDB_SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/openvdb.h
         ${CMAKE_CURRENT_SOURCE_DIR}/openvdb.cpp)
